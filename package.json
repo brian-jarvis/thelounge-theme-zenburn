@@ -1,22 +1,22 @@
 {
-  "name": "thelounge-theme-zenburn",
+  "name": "thelounge-theme-zenburn-monospace",
   "version": "1.0.4",
   "description": "Dark & low-contrast theme for The Lounge, based on the Vim's Zenburn color scheme",
   "main": "package.json",
   "thelounge": {
-    "name": "Zenburn",
+    "name": "Zenburn Monospace",
     "type": "theme",
     "css": "zenburn.css"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thelounge/thelounge-theme-zenburn#readme",
-  "repository": "https://github.com/thelounge/thelounge-theme-zenburn",
+  "homepage": "https://github.com/benharri-forks/thelounge-theme-zenburn#readme",
+  "repository": "https://github.com/benharri-forks/thelounge-theme-zenburn",
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/thelounge/thelounge-theme-zenburn/issues"
+    "url": "https://github.com/benharri-forks/thelounge-theme-zenburn/issues"
   },
   "devDependencies": {
     "stylelint": "^10.1.0",

@@ -7,6 +7,9 @@ https://thelounge.chat/docs/server/configuration.html#theme
 
 Author: JP Smith
 GitHub: https://github.com/japesinator
+
+Monospace fonts, compact sidebars forked by
+https://github.com/benharri
 */
 
 /*
@@ -17,6 +20,62 @@ SECONDARY #d2d39b
 BORDERS #333333
 QUIT #bc6c4c
 */
+
+/* my custom stuff */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i');
+
+* {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+#user-specified-css-input {
+	height: 500px;
+}
+
+#sidebar .networks {
+	padding: 5px 0;
+}
+
+#sidebar .network {
+	margin-bottom: 10px;
+}
+
+#sidebar .chan {
+	padding: 3px 10px;
+}
+
+.logo-container,
+::-webkit-scrollbar {
+	display: none;
+}
+
+#sidebar .chan.query::before,
+#sidebar .chan.channel::before {
+	content: "";
+}
+
+#sidebar .network,
+#sidebar .network-placeholder {
+	margin-bottom: 1em;
+}
+
+#chat .user-mode::before {
+	content: "" !important;
+	border: none;
+	line-height: inherit;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+#form {
+	border: 1px solid var(--window-bg-color);
+}
+
+#chat .user-mode {
+    margin-bottom: 0px;
+}
+
+/* end custom stuff */
 
 :root {
   --body-color: #dcdccc;
