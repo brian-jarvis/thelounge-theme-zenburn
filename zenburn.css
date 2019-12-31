@@ -40,7 +40,7 @@ QUIT #bc6c4c
 	margin-bottom: 10px;
 }
 
-#sidebar .chan {
+#sidebar .channel-list-item {
 	padding: 3px 10px;
 }
 
@@ -49,8 +49,8 @@ QUIT #bc6c4c
 	display: none;
 }
 
-#sidebar .chan.query::before,
-#sidebar .chan.channel::before {
+#sidebar .channel-list-item[data-type="query"]::before,
+#sidebar .channel-list-item[data-type="channel"]::before {
 	content: "";
 }
 
@@ -148,7 +148,7 @@ body {
 
 /* Borders */
 #chat .content,
-#windows .header,
+.header,
 #chat .header,
 #chat .user-mode::before,
 #chat .userlist {
