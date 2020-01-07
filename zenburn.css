@@ -28,6 +28,21 @@ QUIT #bc6c4c
 	font-family: 'IBM Plex Mono', monospace;
 }
 
+/*fix timestamp width in monospace themes*/
+#chat.show-seconds .time, #chat.show-seconds .chat-view[data-type="channel"] .msg.highlight .time {
+    width: auto;
+}
+
+/*hide message sender name if it comes from the same person as the last one*/
+.msg.previous-source .from {
+	visibility: hidden;
+}
+
+/*hide debug*/
+#chat .msg[data-type=raw] {
+    display: none;
+}
+
 #user-specified-css-input {
 	height: 500px;
 }
